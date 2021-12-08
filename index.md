@@ -1,37 +1,130 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
 
-You can use the [editor on GitHub](https://github.com/AkuToG/Portfolio/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Berneuil Justin</title>
+    <link rel="icon" type="image/png" href="3130c8acbe50ec1af151a862ca5a53fb.jpg">
+    <link rel="stylesheet" href="portfolio.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
-### Markdown
+</head>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<body>
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+    <header>
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+        <nav role="navigation">
+            <div id="menuToggle">
 
-**Bold** and _Italic_ and `Code` text
+                <input type="checkbox" />
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+                <span></span>
+                <span></span>
+                <span></span>
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AkuToG/Portfolio/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+                <ul id="menu">
+                    <a href="">
+                        <li>Presentation</li>
+                    </a>
+                    <a href="Passion.html">
+                        <li>Passion</li>
+                    </a>
+                    <a href="Professional_Career.html">
+                        <li>Professional Career</li>
+                    </a>
+                    <a href="Source.html">
+                        <li>Source</li>
+                    </a>
+                    <a href="Latex.pdf" target="_blank">
+                        <li>Latex</li>
+                    </a>
+                    <a href="#footer">
+                        <li>Contact me</li>
+                    </a>
+                </ul>
+            </div>
+        </nav>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+        <h1 id="titre">Presentation</h1>
+
+        <hr id="presentation">
+
+        <div id="PrePres">
+            <p>
+                <center>My name is Berneuil Justin, actually studient<br> of first year in 'BUT R&T' (Bachelor Universitaire de<br> Technologie de Réseaux et Télécommunciation ) <br> on university of Tours at Blois</center>
+            </p>
+        </div>
+    </header>
+
+    <section id="parti2">
+        <h2 id="Bac">Diploma</h2>
+        <hr id="HRPassion">
+        <img src="Logo_Cité_scolaire_Augustin-Thierry.png" id="LogoAT">
+        <pre id="txtBac">Title of 'baccalauréat STI2D (Industrual 
+Technologies and Sciences and of 
+Sustainable) during the school year 
+2019-2020</pre>
+        <img src="brevet des collèges.jpg" id="LogoBrev">
+        <pre id="txtBrev">Title of college diplome during 
+school year 2015-2016</pre>
+    </section>
+
+    <section id="Licence">
+
+        <h3 id="partie3">Études Supérieurs</h3>
+        <hr id="presentation">
+        <img src="1024px-Université_de_Tours_(logo).svg.png" id="LogoAT">
+        <pre id="txtBac">After had got my diplome, I join university 
+François Rabelais at Blois, to get 
+a licence informatic during school 
+year 2020-2021</pre>
+        <img src="NG0TV-YW.jpg" id="LogoAT">
+        <pre id="txtIUT">I take directionn of IUT on same university
+to study BUT R&T () and adapte on 
+my futur project's</pre>
+    </section>
+
+    <section id="Skill">
+        <h3 id="partie4">Compétences</h3>
+        <hr id="presentation">
+        <!--I think Victor Hugo is the best French author-->
+        <img src="langage-html-langage-css-langage-javascript.png" id="LogoWeb">
+        <pre id="txtSkill">Studiing os sector of informatic until 
+now I learn to use language of web 
+programmation as HTML5, CSS3, PhP, 
+MySQL...</pre><br>
+        <img src="DUT-Reseaux-Telecommunications.png" id="LogoRT">
+        <pre id="txtSkill1">With my formation in Network & 
+Telecommunication, I learn different's
+bases : in network, Operating system 
+( Windows Serveur par exemple ),
+software as Latex..</pre>
+        <!--Latex it’s not good-->
+    </section>
+
+
+    <div id="footer">
+        <pre id="ContactFooter"><center>Contact me</center></pre>
+        <center>
+            <hr id="HRContactFooter">
+        </center>
+        <center>
+            <a id="Contact" href="https://www.stillincontact.com/membre.php?menu=majmafiche&identifiant=61a3cb4714024"><img src="logo_SIC.png " id="imgfooterA"></a>
+            <a id="Contact" href="mailto:justin.joannice@gmail.com"><img src="gmail.png" id="imgfooterA"></a>
+            <a id="Contact" href="https://www.linkedin.com/in/justin-berneuil-a671b0226"><img src="logo-linkedin.png" id="imgfooterA"></a>
+        </center>
+        <p id="footerAccueil">Copyright © 2021 Berneuil Justin</p>
+    </div>
+
+
+</body>
+
+</html>
