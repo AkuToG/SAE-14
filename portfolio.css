@@ -60,7 +60,7 @@
         font-family: 'Roboto';
         font-size: 1.8em;
         font-weight: lighter;
-        color: rgb(10, 36, 153);
+        color: rgb(71, 255, 240);
         text-shadow: black 0.1em 0.1em 0.2em;
         -webkit-text-stroke: 0.5px rgb(0, 0, 0);
     }
@@ -93,7 +93,7 @@
         font-family: 'Roboto';
         font-size: 1.8em;
         font-weight: lighter;
-        color: rgb(10, 36, 153);
+        color: rgb(71, 255, 240);
         text-shadow: black 0.1em 0.1em 0.2em;
         -webkit-text-stroke: 0.2px rgb(0, 0, 0);
     }
@@ -265,7 +265,7 @@
         font-family: 'Roboto';
         font-size: 1.8em;
         font-weight: lighter;
-        color: rgb(10, 36, 153);
+        color: rgb(71, 255, 240);
         text-shadow: black 0.1em 0.1em 0.2em;
         -webkit-text-stroke: 0.5px rgb(0, 0, 0);
     }
@@ -285,13 +285,13 @@
     }
     #LogoIng {
         width: 300px;
-        margin: 8% auto auto 20%;
+        margin: 25% auto auto 20%;
     }
     #txtIng {
         width: 38%;
         White-space: normal;
         float: right;
-        margin: 8.5% 6% auto auto;
+        margin: 26% 6% auto auto;
         font-family: 'Roboto';
         font-size: 2em;
         font-weight: lighter;
@@ -299,13 +299,13 @@
     }
     #LogoJob {
         width: 300px;
-        margin: 8% auto auto 20%;
+        margin: 25% auto auto 20%;
     }
     #txtJob {
         width: 38%;
         White-space: normal;
         float: right;
-        margin: 8.5% 6% auto auto;
+        margin: 26% 6% auto auto;
         font-family: 'Roboto';
         font-size: 2em;
         font-weight: lighter;
@@ -317,7 +317,7 @@
     .Link :visited {
         color: blue;
     }
-    #LogoLink {
+    .LogoLink {
         width: 270px;
         margin: 15% auto auto 20%;
     }
@@ -356,7 +356,7 @@
         padding: 0px !important;
         overflow-x: hidden;
         margin-top: 0px !important;
-        background: conic-gradient(from 15deg at 30% 100%, rgb(70, 67, 67) 20%, rgba(255, 255, 255, 1) 58%);
+        background: conic-gradient(from 10deg at 30% 100%, rgb(70, 67, 67) 20%, rgba(255, 255, 255, 1) 58%);
     }
     nav {
         position: relative;
@@ -371,7 +371,7 @@
     }
     #titre {
         margin: auto;
-        top: 24%;
+        top: 8%;
         position: relative;
         font-size: 2.5em;
         text-align: center;
@@ -400,7 +400,7 @@
         height: 1px;
         width: 10%;
         position: center;
-        margin: 20% auto 2% auto;
+        margin: 10% auto 2% auto;
         background-color: rgb(179, 60, 39);
         border: 1px solid rgb(179, 60, 39);
         border-radius: 88px;
@@ -410,45 +410,12 @@
         font-family: 'Roboto';
         font-size: 1em;
         font-weight: lighter;
-        color: rgb(13, 45, 189);
-        text-shadow: black 0.1em 0.1em 0.2em;
-        -webkit-text-stroke: 0.5px rgb(0, 0, 0);
-    }
-    #PassionTitre {
-        margin: auto;
-        position: relative;
-        top: 15%;
-        font-size: 2.8em;
-        text-align: center;
-        color: whitesmoke;
-        font-family: 'Roboto';
-        text-shadow: black 0.1em 0.1em 0.2em;
-        -webkit-text-stroke: 0.5px rgb(0, 0, 0);
-    }
-    #HRPassion {
-        position: relative;
-        top: 30%;
-        height: 1px;
-        width: 15%;
-        position: center;
-        margin: -1% auto 2% auto;
-        background-color: rgb(179, 60, 39);
-        border: 1px solid rgb(179, 60, 39);
-        border-radius: 88px;
-    }
-    #PassionTxt {
-        position: relative;
-        top: 30%;
-        margin-bottom: 2%;
-        font-family: 'Roboto';
-        font-size: 1.3em;
-        font-weight: lighter;
-        color: rgb(17, 48, 184);
+        color: rgb(71, 255, 240);
         text-shadow: black 0.1em 0.1em 0.2em;
         -webkit-text-stroke: 0.5px rgb(0, 0, 0);
     }
     h2 {
-        margin-top: -15%;
+        margin-top: -45%;
         font-size: 2.5em;
         font-family: 'Open Sans';
         font-weight: 321;
@@ -460,8 +427,8 @@
         margin-top: 20%;
     }
     #LogoAT {
-        width: 180px;
-        margin: 6% auto auto 15%;
+        width: 130px;
+        margin: 12% auto auto 10%;
     }
     #txtBac {
         width: 38%;
@@ -469,21 +436,21 @@
         float: right;
         margin: 7% 6.5% auto auto;
         font-family: 'Roboto';
-        font-size: 1.2em;
+        font-size: 1em;
         font-weight: lighter;
         color: whitesmoke;
     }
     #LogoBrev {
-        width: 180px;
-        margin: 6% auto auto 15%;
+        width: 130px;
+        margin: 25% auto auto 10%;
     }
     #txtBrev {
         width: 38%;
         White-space: normal;
         float: right;
-        margin: -10% 6% auto auto;
+        margin: -15% 6% auto auto;
         font-family: 'Roboto';
-        font-size: 1.2em;
+        font-size: 1em;
         font-weight: lighter;
         color: whitesmoke;
     }
@@ -500,9 +467,9 @@
         width: 38%;
         White-space: normal;
         float: right;
-        margin: 13% 6% auto auto;
+        margin: -25% 6% auto auto;
         font-family: 'Roboto';
-        font-size: 1.2em;
+        font-size: 1em;
         font-weight: lighter;
         color: whitesmoke;
     }
@@ -510,20 +477,20 @@
         margin-top: 40%;
     }
     #LogoWeb {
-        width: 200px;
-        margin: 9% auto auto 16%;
+        width: 130px;
+        margin: 9% auto auto 11%;
     }
     #LogoRT {
-        width: 180px;
-        margin: 15% auto auto 15%;
+        width: 150px;
+        margin: 35% auto auto 10%;
     }
     #txtSkill {
         width: 38%;
         White-space: normal;
         float: right;
-        margin: 8% 8% auto auto;
+        margin: 5% 8% auto auto;
         font-family: 'Roboto';
-        font-size: 1.2em;
+        font-size: 1em;
         font-weight: lighter;
         color: whitesmoke
     }
@@ -531,11 +498,44 @@
         width: 38%;
         White-space: normal;
         float: right;
-        margin: -150px 8% auto auto;
+        margin: -80px 8% auto auto;
         font-family: 'Roboto';
-        font-size: 1.2em;
+        font-size: 1em;
         font-weight: lighter;
         color: whitesmoke
+    }
+    #PassionTitre {
+        margin: auto;
+        position: relative;
+        top: 12%;
+        font-size: 2.5em;
+        text-align: center;
+        color: whitesmoke;
+        font-family: 'Roboto';
+        text-shadow: black 0.1em 0.1em 0.2em;
+        -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+    }
+    #HRPassion {
+        position: relative;
+        top: 18%;
+        height: 1px;
+        width: 15%;
+        position: center;
+        margin: -1% auto 2% auto;
+        background-color: rgb(179, 60, 39);
+        border: 1px solid rgb(179, 60, 39);
+        border-radius: 88px;
+    }
+    #PassionTxt {
+        position: relative;
+        top: 17%;
+        margin-bottom: 2%;
+        font-family: 'Roboto';
+        font-size: 1.1em;
+        font-weight: lighter;
+        color: rgb(71, 255, 240);
+        text-shadow: black 0.1em 0.1em 0.2em;
+        -webkit-text-stroke: 0.5px rgb(0, 0, 0);
     }
     #txtBasket {
         width: 38%;
@@ -543,13 +543,13 @@
         float: right;
         margin: 8% 7% auto auto;
         font-family: 'Roboto';
-        font-size: 1.2em;
+        font-size: 1em;
         font-weight: lighter;
         color: whitesmoke;
     }
     #LogoATP {
-        width: 180px;
-        margin: 11% auto auto 15%;
+        width: 130px;
+        margin: 17% auto auto 10%;
     }
     #txtTennis {
         width: 38%;
@@ -559,7 +559,7 @@
         float: right;
         margin: 10% 7% auto auto;
         font-family: 'Roboto';
-        font-size: 1.2em;
+        font-size: 1em;
         font-weight: lighter;
         color: whitesmoke;
     }
@@ -567,29 +567,29 @@
         width: 38%;
         White-space: normal;
         float: right;
-        margin: 6% 7% auto auto;
+        margin: 8% 7% auto auto;
         font-family: 'Roboto';
-        font-size: 1.2em;
+        font-size: 1em;
         font-weight: lighter;
         color: whitesmoke;
     }
     #LogoFalcon {
-        width: 180px;
-        margin: 20% auto auto 15%;
+        width: 130px;
+        margin: 30% auto auto 10%;
     }
     #txtFalcon {
         width: 38%;
         White-space: normal;
         float: right;
-        margin: 19% 9% auto auto;
+        margin: -25% 9% auto auto;
         font-family: 'Roboto';
-        font-size: 1.2em;
+        font-size: 1em;
         font-weight: lighter;
         color: whitesmoke;
     }
     #LogoCult {
-        width: 180px;
-        margin: 7.7% auto auto 15%;
+        width: 130px;
+        margin: 15% auto auto 15%;
     }
     #txtBS {
         width: 38%;
@@ -597,15 +597,15 @@
         float: right;
         margin: -105px 7% auto auto;
         font-family: 'Roboto';
-        font-size: 1.2em;
+        font-size: 1em;
         font-weight: lighter;
         color: whitesmoke;
     }
     #titreProf {
         margin: auto;
-        top: 25%;
+        top: 15%;
         position: relative;
-        font-size: 2.5em;
+        font-size: 2em;
         text-align: center;
         color: whitesmoke;
         font-family: 'Roboto';
@@ -614,7 +614,7 @@
     }
     #presentationProf {
         position: relative;
-        top: 35%;
+        top: 20%;
         height: 2px;
         width: 10%;
         position: center;
@@ -625,18 +625,18 @@
     }
     #PreProf {
         position: relative;
-        top: 40%;
+        top: 25%;
         margin-bottom: 2%;
         font-family: 'Roboto';
-        font-size: 1.4em;
+        font-size: 1em;
         font-weight: lighter;
-        color: rgb(10, 36, 153);
+        color: rgb(71, 255, 240);
         text-shadow: black 0.1em 0.1em 0.2em;
         -webkit-text-stroke: 0.5px rgb(0, 0, 0);
     }
     #LogoNet {
-        width: 180px;
-        margin: 11% auto auto 15%;
+        width: 130px;
+        margin: 18% auto auto 15%;
     }
     #txtNet {
         width: 38%;
@@ -644,37 +644,65 @@
         float: right;
         margin: 15% 7% auto auto;
         font-family: 'Roboto';
-        font-size: 1.2em;
+        font-size: 1em;
         font-weight: lighter;
         color: whitesmoke;
     }
     #LogoIng {
-        width: 180px;
-        margin: 15% auto auto 15%;
+        width: 130px;
+        margin: 40% auto auto 15%;
     }
     #txtIng {
         width: 38%;
         White-space: normal;
         float: right;
-        margin: 14% 7% auto auto;
+        margin: -20% 7% auto auto;
         font-family: 'Roboto';
-        font-size: 1.2em;
+        font-size: 1em;
         font-weight: lighter;
         color: whitesmoke;
     }
     #LogoJob {
-        width: 180px;
-        margin: 15% auto auto 15%;
+        width: 130px;
+        margin: 30% auto auto 15%;
     }
     #txtJob {
         width: 38%;
         White-space: normal;
         float: right;
-        margin: 10% 7% auto auto;
+        margin: -150px 7% auto auto;
+        font-family: 'Roboto';
+        font-size: 1em;
+        font-weight: lighter;
+        color: whitesmoke;
+    }
+    #txtLink {
+        float: right;
+        margin: -10% 17% auto auto;
         font-family: 'Roboto';
         font-size: 1.2em;
         font-weight: lighter;
         color: whitesmoke;
+    }
+    #txtOCR {
+        float: right;
+        margin: -18% 10% auto auto;
+        font-family: 'Roboto';
+        font-size: 1.2em;
+        font-weight: lighter;
+        color: whitesmoke;
+    }
+    #txtAGT {
+        float: right;
+        margin: -20% 17% auto auto;
+        font-family: 'Roboto';
+        font-size: 1.2em;
+        font-weight: lighter;
+        color: whitesmoke;
+    }
+    .LogoLink {
+        width: 130px;
+        margin: 15% auto auto 15%;
     }
 }
 
@@ -776,7 +804,7 @@
     background-color: rgb(51, 51, 51);
     width: 100%;
     height: fit-content;
-    margin-top: 20%;
+    margin-top: 30%;
     margin-bottom: -10%;
     color: white;
 }
