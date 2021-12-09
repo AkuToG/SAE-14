@@ -9,6 +9,117 @@
         margin-top: 0px !important;
         background: conic-gradient(from 20deg at 35% 100%, rgb(70, 67, 67) 20%, rgba(255, 255, 255, 1) 58%);
     }
+    #menuToggle {
+        display: block;
+        position: relative;
+        top: 10px;
+        left: 50px;
+        z-index: 1;
+        -webkit-user-select: none;
+        user-select: none;
+    }
+    #menuToggle a {
+        text-decoration: none;
+        font-family: 'Roboto';
+        color: #ededed;
+        transition: color 0.3s ease;
+    }
+    #menuToggle a:hover {
+        color: tomato;
+    }
+    #menuToggle input {
+        display: block;
+        width: 40px;
+        height: 32px;
+        position: absolute;
+        top: -7px;
+        left: -5px;
+        cursor: pointer;
+        opacity: 0;
+        z-index: 2;
+        -webkit-touch-callout: none;
+    }
+    #menuToggle span {
+        display: block;
+        width: 33px;
+        height: 4px;
+        margin-bottom: 5px;
+        position: relative;
+        background: #cdcdcd;
+        border-radius: 3px;
+        z-index: 1;
+        transform-origin: 4px 0px;
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), opacity 0.55s ease;
+    }
+    #menuToggle span:first-child {
+        transform-origin: 0% 0%;
+    }
+    #menuToggle span:nth-last-child(2) {
+        transform-origin: 0% 100%;
+    }
+    #menuToggle input:checked~span {
+        opacity: 1;
+        transform: rotate(45deg) translate(-2px, -1px);
+        background: #ededed;
+    }
+    #menuToggle input:checked~span:nth-last-child(3) {
+        opacity: 0;
+        transform: rotate(0deg) scale(0.2, 0.2);
+    }
+    #menuToggle input:checked~span:nth-last-child(2) {
+        transform: rotate(-45deg) translate(0, -1px);
+    }
+    #menu {
+        position: absolute;
+        width: 300px;
+        margin: -100px 0 0 -50px;
+        padding: 50px;
+        padding-top: 125px;
+        background: #232323;
+        list-style-type: none;
+        -webkit-font-smoothing: antialiased;
+        transform-origin: 0% 0%;
+        transform: translate(-100%, 0);
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+    }
+    #menu li {
+        padding: 10px 0;
+        font-size: 22px;
+    }
+    #menuToggle input:checked~ul {
+        transform: none;
+    }
+    #footer {
+        border-top: 3px solid white;
+        background-color: rgb(51, 51, 51);
+        width: 100%;
+        height: fit-content;
+        margin-top: 30%;
+        margin-bottom: -10%;
+        color: white;
+    }
+    #ContactFooter {
+        font-size: 2.5em;
+    }
+    #HRContactFooter {
+        width: 200px;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        background-color: white;
+    }
+    #imgfooterA {
+        width: 50px;
+        height: 50px;
+        margin: auto 10% auto 10%;
+        display: inline-block;
+        position: center;
+    }
+    #footerAccueil {
+        float: bottom;
+        margin: 5% auto 2% auto;
+        text-align: center;
+        padding-bottom: 1%;
+    }
     nav {
         position: relative;
         top: 10%;
@@ -30,17 +141,6 @@
         font-family: 'Roboto';
         text-shadow: black 0.1em 0.1em 0.2em;
         -webkit-text-stroke: 0.5px rgb(0, 0, 0);
-    }
-    #Moi {
-        position: relative;
-        top: 20%;
-        font-size: 3em;
-        font-family: 'Roboto';
-        font-weight: 500;
-        color: rgb(255, 255, 255);
-        text-shadow: black 0.1em 0.1em 0.2em;
-        text-align: center;
-        -webkit-text-stroke: 2px rgb(0, 0, 0);
     }
     #presentation {
         position: relative;
@@ -358,6 +458,117 @@
         margin-top: 0px !important;
         background: conic-gradient(from 10deg at 30% 100%, rgb(70, 67, 67) 20%, rgba(255, 255, 255, 1) 58%);
     }
+    #menuToggle {
+        display: block;
+        position: relative;
+        top: 10px;
+        left: 30px;
+        z-index: 1;
+        -webkit-user-select: none;
+        user-select: none;
+    }
+    #menuToggle a {
+        text-decoration: none;
+        font-family: 'Roboto';
+        color: #ededed;
+        transition: color 0.3s ease;
+    }
+    #menuToggle a:hover {
+        color: tomato;
+    }
+    #menuToggle input {
+        display: block;
+        width: 32px;
+        height: 30px;
+        position: absolute;
+        top: -7px;
+        left: -5px;
+        cursor: pointer;
+        opacity: 0;
+        z-index: 2;
+        -webkit-touch-callout: none;
+    }
+    #menuToggle span {
+        display: block;
+        width: 30px;
+        height: 2.9px;
+        margin-bottom: 5px;
+        position: relative;
+        background: #cdcdcd;
+        border-radius: 3px;
+        z-index: 1;
+        transform-origin: 4px 0px;
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), opacity 0.55s ease;
+    }
+    #menuToggle span:first-child {
+        transform-origin: 0% 0%;
+    }
+    #menuToggle span:nth-last-child(2) {
+        transform-origin: 0% 100%;
+    }
+    #menuToggle input:checked~span {
+        opacity: 1;
+        transform: rotate(45deg) translate(-2px, -1px);
+        background: #ededed;
+    }
+    #menuToggle input:checked~span:nth-last-child(3) {
+        opacity: 0;
+        transform: rotate(0deg) scale(0.2, 0.2);
+    }
+    #menuToggle input:checked~span:nth-last-child(2) {
+        transform: rotate(-45deg) translate(0, -1px);
+    }
+    #menu {
+        position: absolute;
+        width: 300px;
+        margin: -100px 0 0 -50px;
+        padding: 50px;
+        padding-top: 125px;
+        background: #232323;
+        list-style-type: none;
+        -webkit-font-smoothing: antialiased;
+        transform-origin: 0% 0%;
+        transform: translate(-100%, 0);
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+    }
+    #menu li {
+        padding: 10px 0;
+        font-size: 22px;
+    }
+    #menuToggle input:checked~ul {
+        transform: none;
+    }
+    #footer {
+        border-top: 3px solid white;
+        background-color: rgb(51, 51, 51);
+        width: 100%;
+        height: fit-content;
+        margin-top: 30%;
+        margin-bottom: -10%;
+        color: white;
+    }
+    #ContactFooter {
+        font-size: 2.5em;
+    }
+    #HRContactFooter {
+        width: 200px;
+        margin-top: 2%;
+        margin-bottom: 5%;
+        background-color: white;
+    }
+    #imgfooterA {
+        width: 50px;
+        height: 50px;
+        margin: auto 10% auto 10%;
+        display: inline-block;
+        position: center;
+    }
+    #footerAccueil {
+        float: bottom;
+        margin: 5% auto 2% auto;
+        text-align: center;
+        padding-bottom: 1%;
+    }
     nav {
         position: relative;
         top: 50px;
@@ -379,21 +590,6 @@
         font-family: 'Roboto';
         text-shadow: black 0.1em 0.1em 0.2em;
         -webkit-text-stroke: 0.5px rgb(0, 0, 0);
-    }
-    a {
-        outline: none;
-        text-decoration: none;
-        color: whitesmoke;
-    }
-    #Moi {
-        font-size: 1.8em;
-        margin-top: 15%;
-        font-family: 'Roboto';
-        font-weight: 500;
-        color: rgb(255, 255, 255);
-        text-shadow: black 0.1em 0.1em 0.2em;
-        text-align: center;
-        -webkit-text-stroke: 1px rgb(0, 0, 0);
     }
     #presentation {
         position: relative;
@@ -506,8 +702,8 @@
     }
     #PassionTitre {
         margin: auto;
+        top: 8%;
         position: relative;
-        top: 12%;
         font-size: 2.5em;
         text-align: center;
         color: whitesmoke;
@@ -517,21 +713,18 @@
     }
     #HRPassion {
         position: relative;
-        top: 18%;
         height: 1px;
-        width: 15%;
+        width: 10%;
         position: center;
-        margin: -1% auto 2% auto;
+        margin: 10% auto 2% auto;
         background-color: rgb(179, 60, 39);
         border: 1px solid rgb(179, 60, 39);
         border-radius: 88px;
     }
     #PassionTxt {
-        position: relative;
-        top: 17%;
-        margin-bottom: 2%;
+        margin-bottom: 5%;
         font-family: 'Roboto';
-        font-size: 1.1em;
+        font-size: 1em;
         font-weight: lighter;
         color: rgb(71, 255, 240);
         text-shadow: black 0.1em 0.1em 0.2em;
@@ -603,9 +796,9 @@
     }
     #titreProf {
         margin: auto;
-        top: 15%;
+        top: 8%;
         position: relative;
-        font-size: 2em;
+        font-size: 2.5em;
         text-align: center;
         color: whitesmoke;
         font-family: 'Roboto';
@@ -614,19 +807,16 @@
     }
     #presentationProf {
         position: relative;
-        top: 20%;
-        height: 2px;
+        height: 1px;
         width: 10%;
         position: center;
-        margin: -1% auto 2% auto;
+        margin: 10% auto 2% auto;
         background-color: rgb(179, 60, 39);
         border: 1px solid rgb(179, 60, 39);
         border-radius: 88px;
     }
     #PreProf {
-        position: relative;
-        top: 25%;
-        margin-bottom: 2%;
+        margin-bottom: 5%;
         font-family: 'Roboto';
         font-size: 1em;
         font-weight: lighter;
@@ -704,133 +894,4 @@
         width: 130px;
         margin: 15% auto auto 15%;
     }
-}
-
-#menuToggle {
-    display: block;
-    position: relative;
-    top: 10px;
-    left: 50px;
-    z-index: 1;
-    -webkit-user-select: none;
-    user-select: none;
-}
-
-#menuToggle a {
-    text-decoration: none;
-    font-family: 'Roboto';
-    color: #ededed;
-    transition: color 0.3s ease;
-}
-
-#menuToggle a:hover {
-    color: tomato;
-}
-
-#menuToggle input {
-    display: block;
-    width: 40px;
-    height: 32px;
-    position: absolute;
-    top: -7px;
-    left: -5px;
-    cursor: pointer;
-    opacity: 0;
-    z-index: 2;
-    -webkit-touch-callout: none;
-}
-
-#menuToggle span {
-    display: block;
-    width: 33px;
-    height: 4px;
-    margin-bottom: 5px;
-    position: relative;
-    background: #cdcdcd;
-    border-radius: 3px;
-    z-index: 1;
-    transform-origin: 4px 0px;
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), opacity 0.55s ease;
-}
-
-#menuToggle span:first-child {
-    transform-origin: 0% 0%;
-}
-
-#menuToggle span:nth-last-child(2) {
-    transform-origin: 0% 100%;
-}
-
-#menuToggle input:checked~span {
-    opacity: 1;
-    transform: rotate(45deg) translate(-2px, -1px);
-    background: #ededed;
-}
-
-#menuToggle input:checked~span:nth-last-child(3) {
-    opacity: 0;
-    transform: rotate(0deg) scale(0.2, 0.2);
-}
-
-#menuToggle input:checked~span:nth-last-child(2) {
-    transform: rotate(-45deg) translate(0, -1px);
-}
-
-#menu {
-    position: absolute;
-    width: 300px;
-    margin: -100px 0 0 -50px;
-    padding: 50px;
-    padding-top: 125px;
-    background: #232323;
-    list-style-type: none;
-    -webkit-font-smoothing: antialiased;
-    transform-origin: 0% 0%;
-    transform: translate(-100%, 0);
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
-}
-
-#menu li {
-    padding: 10px 0;
-    font-size: 22px;
-}
-
-#menuToggle input:checked~ul {
-    transform: none;
-}
-
-#footer {
-    border-top: 3px solid white;
-    background-color: rgb(51, 51, 51);
-    width: 100%;
-    height: fit-content;
-    margin-top: 30%;
-    margin-bottom: -10%;
-    color: white;
-}
-
-#ContactFooter {
-    font-size: 2.5em;
-}
-
-#HRContactFooter {
-    width: 200px;
-    margin-top: 2%;
-    margin-bottom: 5%;
-    background-color: white;
-}
-
-#imgfooterA {
-    width: 50px;
-    height: 50px;
-    margin: auto 10% auto 10%;
-    display: inline-block;
-    position: center;
-}
-
-#footerAccueil {
-    float: bottom;
-    margin: 5% auto 2% auto;
-    text-align: center;
-    padding-bottom: 1%;
 }
