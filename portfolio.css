@@ -548,23 +548,24 @@
         color: white;
     }
     #ContactFooter {
-        font-size: 2.5em;
+        font-size: 2em;
     }
     #HRContactFooter {
-        width: 200px;
+        width: 100px;
         margin-top: 2%;
         margin-bottom: 5%;
         background-color: white;
     }
     #imgfooterA {
-        width: 50px;
-        height: 50px;
+        width: 20px;
+        height: 20px;
         margin: auto 10% auto 10%;
         display: inline-block;
         position: center;
     }
     #footerAccueil {
         float: bottom;
+        font-size: 0.8em;
         margin: 5% auto 2% auto;
         text-align: center;
         padding-bottom: 1%;
