@@ -877,7 +877,7 @@
         color: whitesmoke;
         font-family: 'Roboto';
         text-shadow: black 0.1em 0.1em 0.2em;
-        -webkit-text-stroke: 0.5px rgb(0, 0, 0);
+        -webkit-text-stroke: 1px rgb(0, 0, 0);
     }
     #txtLink {
         float: right;
