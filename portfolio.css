@@ -868,7 +868,7 @@
     }
     #txtLink {
         float: right;
-        margin: -10% 17% auto auto;
+        margin: 20% 17% auto auto;
         font-family: 'Roboto';
         font-size: 1.2em;
         font-weight: lighter;
@@ -876,7 +876,7 @@
     }
     #txtOCR {
         float: right;
-        margin: -18% 10% auto auto;
+        margin: 28% 10% auto auto;
         font-family: 'Roboto';
         font-size: 1.2em;
         font-weight: lighter;
@@ -884,7 +884,7 @@
     }
     #txtAGT {
         float: right;
-        margin: -20% 17% auto auto;
+        margin: 28% 17% auto auto;
         font-family: 'Roboto';
         font-size: 1.2em;
         font-weight: lighter;
