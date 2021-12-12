@@ -478,7 +478,7 @@
         display: block;
         position: relative;
         top: 10px;
-        left: 22px;
+        left: 18px;
         z-index: 1;
         -webkit-user-select: none;
         user-select: none;
@@ -559,7 +559,7 @@
         background-color: rgb(51, 51, 51);
         width: 100%;
         height: fit-content;
-        margin-top: 30%;
+        margin-top: 35%;
         margin-bottom: -10%;
         color: white;
     }
