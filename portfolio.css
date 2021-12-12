@@ -328,6 +328,10 @@
         width: 300px;
         margin: 7.7% auto auto 20%;
     }
+    #LogoBS {
+        width: 300px;
+        margin: 18% auto auto 20%;
+    }
     #txtBS {
         float: right;
         margin: -175px 12% auto auto;
@@ -474,7 +478,7 @@
         display: block;
         position: relative;
         top: 10px;
-        left: 30px;
+        left: 25px;
         z-index: 1;
         -webkit-user-select: none;
         user-select: none;
@@ -502,8 +506,8 @@
     }
     #menuToggle span {
         display: block;
-        width: 30px;
-        height: 2.9px;
+        width: 33px;
+        height: 4px;
         margin-bottom: 5px;
         position: relative;
         background: #cdcdcd;
@@ -797,11 +801,15 @@
         width: 130px;
         margin: 15% auto auto 15%;
     }
+    #LogoBS {
+        width: 130px;
+        margin: 40% auto auto 15%;
+    }
     #txtBS {
         width: 38%;
         White-space: normal;
         float: right;
-        margin: -105px 7% auto auto;
+        margin: -25% 7% auto auto;
         font-family: 'Roboto';
         font-size: 1em;
         font-weight: lighter;
@@ -867,7 +875,7 @@
     }
     #LogoJob {
         width: 130px;
-        margin: 30% auto auto 15%;
+        margin: 45% auto auto 15%;
     }
     #txtJob {
         width: 38%;
