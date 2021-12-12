@@ -478,7 +478,7 @@
         display: block;
         position: relative;
         top: 10px;
-        left: 25px;
+        left: 22px;
         z-index: 1;
         -webkit-user-select: none;
         user-select: none;
@@ -875,13 +875,13 @@
     }
     #LogoJob {
         width: 130px;
-        margin: 45% auto auto 15%;
+        margin: 45% auto auto 13%;
     }
     #txtJob {
         width: 38%;
         White-space: normal;
         float: right;
-        margin: -150px 7% auto auto;
+        margin: -150px 7% 5% auto;
         font-family: 'Roboto';
         font-size: 1em;
         font-weight: lighter;
